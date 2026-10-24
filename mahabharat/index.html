@@ -1,0 +1,468 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+
+
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+
+
+<STYLE>
+<!--
+body {
+  margin-right: 0%;
+  margin-left:0%;
+ font-variant-ligatures: none;
+ font-size: 16px;
+ -webkit-text-size-adjust: none;
+ -moz-text-size-adjust: none;
+ -ms-text-size-adjust: none;
+overflow-y: scroll;
+}
+
+
+strong {font-size: 16px;}
+
+
+th, td {
+    padding: 0px;
+    text-align: left;
+    vertical-align: middle;
+}
+div {text-align: justify;}
+
+a {text-decoration:none; font-size: 16px;}
+a:link { color: blue; }
+a:active { color:  blue; }
+a:hover { color: blue; }
+a:visited { color:  blue; }
+
+a.nav:link { color: white; }
+a.nav:active { color:  white; }
+a.nav:hover { color: white; }
+a.nav:visited { color:  white; }
+
+img.promo {
+width: 560px ;
+max-width: 100%;
+height: auto;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 10px; /* Position the navbar at the top of the page */
+  margin-right: 2%;
+  margin-left:2%;
+  width:96%;
+  background-color: Orange;
+  height:80px;
+}
+
+.main {
+margin-right:2%;
+margin-left:2%;
+width:96%;
+}
+//-->
+
+
+</STYLE>
+
+
+<TITLE>Mahabharat</TITLE>
+</HEAD>
+
+<BODY style="background-color:black; color:white; font-weight:bold;">
+
+<script>
+$(window).bind('resize', function(e)
+                     {
+                         if (window.RT) clearTimeout(window.RT);
+                         window.RT = setTimeout(function()
+                                                {
+                                                    vidresize();
+                                                }, 200);
+                     });
+</script>
+
+<div class="navbar" id="navbar">
+
+<BR>
+<table width="100%">
+<tr>
+<td width="16.5%" style="text-align: center;"><a class="nav" href="javascript:void(0)" onclick="showtext('home')">Home</a></td>
+<td width="16.5%" style="text-align: center;"><a class="nav" href="javascript:void(0)" onclick="showtext('intro')">Intro video</a></td>
+<td width="16.5%" style="text-align: center;"><a class="nav" href="javascript:void(0)" onclick="showtext('cast')">Cast</a></td>
+<td width="16.5%" style="text-align: center;"><a class="nav" href="javascript:void(0)" onclick="showtext('extras')">Behind the scenes</a></td>
+<td width="16.5%" style="text-align: center;"><a class="nav" href="javascript:void(0)" onclick="showtext('script')">Script</a></td>
+<td width="16.5%" style="text-align: center;"><a class="nav" href="javascript:void(0)" onclick="showtext('contact')">Contact</a></td>
+</tr>
+</table>
+
+
+</div>
+
+
+<BR>
+
+
+<DIV class="main" id="main">
+
+
+<div id="home">
+
+<BR>
+<img border="0" src="./mahabharat_web.png" style="width:100%;padding:0px"><BR>
+
+</div>
+
+<div id="intro">
+
+  <iframe id="youtube"src="https://www.youtube.com/embed/SecqrN6otkE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+</div>
+
+<div id="cast">
+
+<table width="100%">
+
+<tr>
+<td width="30%;">Director</td>
+<td>Siddhartha Dattagupta</td>
+</tr>
+
+<tr>
+<td>Assitant Director</td>
+<td>Pami Mukherjee</td>
+</tr>
+
+<tr>
+<td>Writer</td>
+<td>Sucharit Sarkar</td>
+</tr>
+
+<tr>
+<td>Coordinator</td>
+<td>Sweta Bhattacharya</td>
+</tr>
+
+<tr>
+<td>Costumes and Set</td>
+<td>Mohua Roy</td>
+</tr>
+
+<tr>
+<td>Lights</td>
+<td>Reshmi Dutta</td>
+</tr>
+
+<tr>
+<td>Sound</td>
+<td>Poulomi Roy</td>
+</tr>
+
+<tr>
+<td>Make-up</td>
+<td>Sweta Bhattacharya</td>
+</tr>
+<tr>
+
+<td></td>
+<td>Swapna Ray</td>
+</tr>
+
+<td></td>
+<td>Barna Saha</td>
+</tr>
+
+<tr>
+<td>Prompter</td>
+<td>Sangita Chattaraj</td>
+</tr>
+
+<tr>
+<td>Lapel</td>
+<td>Abir Chakraborty</td>
+</tr>
+
+<tr>
+<td></td>
+<td>Riddhi Chakraborty</td>
+</tr>
+
+<tr>
+<td><BR></td>
+</tr>
+
+
+<tr>
+<td><span style="color:Orange">Cast (children)</span></td>
+<td></td>
+</tr>
+
+<tr>
+<td>Yudhisthir</td>
+<td>Aarya Roy</td>
+</tr>
+
+<tr>
+<td>Bhim</td>
+<td>Souhardyo Saha</td>
+</tr>
+
+<tr>
+<td>Arjun</td>
+<td>Soujonyo Saha</td>
+</tr>
+
+<tr>
+<td>Nakul</td>
+<td>Aishani Austin</td>
+</tr>
+
+<tr>
+<td>Sahadev</td>
+<td>Aashi Austin</td>
+</tr>
+
+<tr>
+<td>Duryodhan</td>
+<td>Shirom Mukherjee</td>
+</tr>
+
+<tr>
+<td>Duhshashan</td>
+<td>Aviraj Ghosh</td>
+</tr>
+
+<tr>
+<td>Ekalabya</td>
+<td>Nirajana Sarkar</td>
+</tr>
+
+
+<tr>
+<td><BR></td>
+</tr>
+
+<tr>
+<td><span style="color:Orange">Cast (adults)</span></td>
+<td></td>
+</tr>
+
+
+<tr>
+<td>Janamejay</td>
+<td>Subhendu Roy</td>
+</tr>
+
+<tr>
+<td>Vyas</td>
+<td>Siddhartha Dattagupta</td>
+</tr>
+
+<tr>
+<td>Vaishampayan</td>
+<td>Dhruba Bhattacharya</td>
+</tr>
+
+<tr>
+<td>Pandu</td>
+<td>Suman Laha</td>
+</tr>
+
+<tr>
+<td>Kunti</td>
+<td>Sharmila Dasgupta</td>
+</tr>
+
+<tr>
+<td>Madri</td>
+<td>Somali Saha</td>
+</tr>
+
+<tr>
+<td>Vidur</td>
+<td>Soumen Ghosh</td>
+</tr>
+
+<tr>
+<td>Dhritarashtra</td>
+<td>Bidhan Ray</td>
+</tr>
+
+<tr>
+<td>Gandhari</td>
+<td>Chameli Panja</td>
+</tr>
+
+<tr>
+<td>Bhishma</td>
+<td>Sarnath Chattaraj</td>
+</tr>
+
+<tr>
+<td>Dron</td>
+<td>Arnab Chatterjee</td>
+</tr>
+
+<tr>
+<td>Shakuni</td>
+<td>Siddhartha Biswas</td>
+</tr>
+
+<tr>
+<td>Durjodhan</td>
+<td>Suman Saha</td>
+</tr>
+
+<tr>
+<td>Duhshashan</td>
+<td>Sanjib Mukherjee</td>
+</tr>
+
+<tr>
+<td>Draupadi</td>
+<td>Arpita Chakrabarty</td>
+</tr>
+
+<tr>
+<td>Karna</td>
+<td>Arnab Dasgupta</td>
+</tr>
+
+<tr>
+<td>Yudhisthir</td>
+<td>Kaushik Biswas</td>
+</tr>
+
+<tr>
+<td>Bhim</td>
+<td>Sayandeb Ghosh</td>
+</tr>
+
+<tr>
+<td>Arjun</td>
+<td>Swagata Ghosh</td>
+</tr>
+
+<tr>
+<td>Nakul</td>
+<td>Anirban Roy</td>
+</tr>
+
+<tr>
+<td>Sahadeb</td>
+<td>Sucharit Sarkar</td>
+</tr>
+
+<tr>
+<td>Krishna</td>
+<td>Subharoop Ghosh</td>
+</tr>
+
+<tr>
+<td>Shikhandi</td>
+<td>Pami Mukherjee</td>
+</tr>
+
+
+</table>
+</div>
+
+<div id="extras">
+
+<img class="promo" src="ending-scene.jpg"></img><BR><BR>
+<img class="promo" src="group1.jpg"></img><BR><BR>
+<img class="promo" src="swayambar.jpg"></img><BR><BR>
+<img class="promo" src="dhritarashtra.jpg"></img><BR><BR>
+<img class="promo" src="kurukshetra.jpg"></img><BR><BR>
+<img class="promo" src="durjodhan.jpg"></img><BR><BR>
+<img class="promo" src="comedy-break.jpg"></img><BR><BR>
+<img class="promo" src="bhisma-parva.jpg"></img><BR><BR>
+<img class="promo" src="group2.jpg"></img><BR><BR>
+
+</div>
+
+<div id="script">
+
+<BR>
+<img border="0" src="./mahabharat_teaser.png" style="width:100%;padding:0px"><BR>
+
+
+</div>
+
+<div id="contact">
+For information about Dakshini, visit <a href="https://www.dakshini.org/">https://www.dakshini.org/</a> or email <a href="mailto:info@dakshini.org">info@dakshini.org</a>
+
+<BR><BR>
+
+For questions or comments about the Mahabharat show, please email
+<script language="javascript"> <!--
+var p3 = '<a hr';
+var p4 = 'ef="ma';
+var p5 = 'ilto:such';
+var p6 = 'arit@ma';
+var p7 = 'th.uc';
+var p8 = 'la.edu">sucha';
+var p9 = 'rit@mat';
+var p10 = 'h.u';
+var p11 = 'cla.edu</';
+var p12 = 'a>';
+document.write(p3 + p4 + p5 + p6 + p7 + p8 + p9 + p10 + p11 + p12);
+// -->
+</script>
+
+<BR><BR><BR>
+Please join us on <span style="color:Orange">Saturday 23rd October 2021 4:30pm at Torrance High School Auditorium</span> for a modern rendition of the epic tale of Mahabharata. The story remains unchanged, the characters remain true to their original motives, yet the drama comes with a subtle touch of contemporary sensibilities. Just like the original, it is written entirely as a poem, primarily in Bengali, but with occasional bits in English, Hindi, Sanskrit, and even Brajabuli. It is a direct homage to Satyajit Ray's "Hirak Rajar Deshe", but contains several tributes to the pioneer of Bengali rhymes, Sukumar Ray, as well as to the one unifying light of the entire Bengali consciousness, Rabindranath Tagore. The drama is presented as a serio-comedy and delves into several serious themes and societal issues of Mahabharata, but without losing its light comedic touch. 
+ 
+</div>
+
+<script language="javascript">
+<!--
+
+function vidresize()
+{
+
+var DocWidth  = window.innerWidth || document.documentElement.clientWidth ||  document.body.clientWidth;
+var DocHeight = window.innerHeight|| document.documentElement.clientHeight ||  document.body.clientHeight;
+
+
+var VidWidth=Math.min(DocWidth*0.96,(DocHeight-80)*9/16);
+var VidHeight=VidWidth*16/9;
+
+var video=document.getElementById("youtube");
+video.style.width=VidWidth+"px";
+video.style.height=VidHeight+"px";
+console.log(VidWidth,video.style.width);
+}
+
+function showtext(id)
+{
+document.getElementById('home').style.display="none";
+document.getElementById('intro').style.display="none";
+document.getElementById('cast').style.display="none";
+document.getElementById('extras').style.display="none";
+document.getElementById('script').style.display="none";
+document.getElementById('contact').style.display="none";
+
+var height = document.getElementById("navbar").offsetHeight;
+document.getElementById(id).style.marginTop = height+'px';
+
+document.getElementById(id).style.display="block";
+}
+
+showtext('home');
+vidresize();
+
+//-->
+</script>
+
+
+</DIV>
+</BODY>
+</HTML>
